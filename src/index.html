@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>TTS 2.0</title>
+        <!-- bower:css -->
+        <!-- endbower -->
+        <!-- inject:css -->
+        <!-- endinject -->
+        <!-- bower:js -->
+        <!-- endbower -->
+        <!-- inject:manual -->
+        <!-- endinject -->
+        <!-- inject:js -->
+        <!-- endinject -->
+    </head>
+    
+    <body ng-app="app" ng-cloak ng-strict-di>
+        <div ng-include="'components/navigation/navigation.html'" ng-controller="app.navigation.NavigationController as navctrl"></div>
+        <div class="container">
+            <div ui-view></div>
+        </div>
+    </body>
+
+</html>

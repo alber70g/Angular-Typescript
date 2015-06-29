@@ -1,0 +1,17 @@
+﻿{
+  "webroot": "src",
+  "version": "0.0.1-*",
+
+  "publishExclude": [
+    "node_modules",
+    "src/bower_components",
+    "**.xproj",
+    "**.user",
+    "**.vspscc"
+  ],
+  "exclude": [
+    "wwwroot",
+    "node_modules",
+    "src/bower_components"
+  ]
+}

@@ -7,7 +7,7 @@ Prerequisites:
 - [nodejs (npm)](https://nodejs.org/download/)
 - [bower](http://bower.io/) `npm install -g bower`
 - [tsd](http://definitelytyped.org/tsd/) `npm install -g tsd`
-- [gulp](http://gulpjs.com/) `npm install -g gulp`
+- [gulp](http://gulpjs.com/) `npm install -g gulp-cli`
 
 Clone the repository and resolve dependencies.
 
