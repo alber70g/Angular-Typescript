@@ -59,10 +59,10 @@ gulp.task('serve-dev:node', ['dev'], function () {
         .pipe(webserver({
             livereload: true,
             directoryListing: false,
-            open: false
+            open: true
         }));
     
-    exec('start http://localhost');
+    //exec('start http://localhost');
 });
 
 gulp.task('serve-dist:node', ['dist'], function () {
